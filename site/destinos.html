@@ -45,50 +45,35 @@
      
 
 
-    <!-- Inicio -->
-    <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-dark" 
-         style="background-image: url('img/bg.jpg');
-                background-size: cover;
-                background-position: center center;
-                background-repeat: no-repeat;
-                height: 75vh">
-
-    <div>
-      <img class="d-block mx-auto mb-4" src="./img/logo1.png" alt="logo" width="72" height="57">
-        <h1 class="display-5 fw-bold mt-1">Atmos7</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mt-2 mb-4">Fazendo de cada momento algo inesquecível...</p>
+      <div class="container py-5" id="icon-grid">
+        <h2 class="pb-5 border-bottom text-center"><strong>Destinos</strong></h2>
       </div>
-    </div>
-    </div>
-    <!-- Fim Inicio kkk -->
 
 
-    <!-- Voos Pesquisa-->
-
-    <div class="container text-center my-5 pt-5">
-      <h1><strong>Principais Destinos</strong></h1>
+    <!-- Viagens Pesquisa-->
+    <div class="container">
+    <form>
+      <div>
+        <input class="form-control" type="search" placeholder="Pesquisar">
+        <button type="submit" class="btn btn-primary">Pesquisar</button>
+      </div>
+    </form>
     </div>
 
-    <div class="container my-4"
-      <div class="form-group input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
-        <input name="consulta" id="txt_consulta" placeholder="Consultar" type="text" class="form-control">
-       </div>
-    </div>
     
     <!-- Voos -->
 
   <div class="container">
+
 
      <table id="tabela" class="table table-hover">
        <thead>
        	<tr>
         		<th>Origem</th>
         		<th>Destino</th>
-        		<th>Data Ida</th>
-        		<th>Data Volta</th>
-            <th>Passageiros</th>
+        		<th>Ida</th>
+        		<th>Volta</th>
+            <th>Preço</th>
         	</tr>
         </thead>
         <tbody>
@@ -97,7 +82,7 @@
         		<th>Fortaleza</th>
         		<td>10/07/22</td>
         		<td>20/07/22</td>
-            <td>3 Passageiros</td>
+            <td>R$ 896,36</td>
         	</tr>
       
         	<tr>
@@ -105,7 +90,7 @@
         		<th>Fortaleza</th>
         		<td>10/07/22</td>
         		<td>20/07/22</td>
-            <td>3 Passageiros</td>
+            <td>R$ 896,36</td>
         	</tr>
 
         	<tr>
@@ -113,7 +98,7 @@
         		<th>Fortaleza</th>
         		<td>10/07/22</td>
         		<td>20/07/22</td>
-            <td>3 Passageiros</td>
+            <td>R$ 896,36</td>
         	</tr>
 
         	<tr>
@@ -121,7 +106,7 @@
         		<th>Fortaleza</th>
         		<td>10/07/22</td>
         		<td>20/07/22</td>
-            <td>3 Passageiros</td>
+            <td>R$ 896,36</td>
         	</tr>
 
 
@@ -130,7 +115,7 @@
         		<th>Fortaleza</th>
         		<td>10/07/22</td>
         		<td>20/07/22</td>
-            <td>3 Passageiros</td>
+            <td>R$ 896,36</td>
         	</tr>
 
         	<tr>
@@ -138,7 +123,7 @@
         		<th>Fortaleza</th>
         		<td>10/07/22</td>
         		<td>20/07/22</td>
-            <td>3 Passageiros</td>
+            <td>R$ 896,36</td>
         	</tr>
 
         </tbody>
@@ -154,40 +139,39 @@
 
     <!--Rodapé / Footer-->
     <div class="container">
-    <footer class="py-5">
-        <div class="row">
-
-          <div class="col-3">
-            <h5>Termos</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Condições Gerais</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Politica de Privacidade</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Código de Conduta Ética</a></li>
-            </ul>
+      <footer class="py-5">
+          <div class="row justify-content-center">
+  
+            <div class="col-md-3 mb-3">
+              <h5>Termos</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Condições Gerais</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Politica de Privacidade</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Código de Conduta Ética</a></li>
+              </ul>
+            </div>
+         
+            <div class="col-md-3 mb-3">
+              <h5>Canais de Atendimento</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">SAC</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Central de Realcionamento</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pós venda</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Remarcações</a></li>
+              </ul>
+            </div>
+            
+          <div class="col-md-4 mb-3">
+          <form>
+            <h5>Casdastre seu email</h5>
+            <div class="form-group">
+              <label for="exampleInputEmail1">E receba mensalmente nossas melhores ofertas</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+              <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Inscrever</button>
+          </form>
           </div>
-       
-          <div class="col-3">
-            <h5>Canais de Atendimento</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">SAC</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Central de Realcionamento</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pós venda</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Remarcações</a></li>
-            </ul>
-          </div>
-    
-          <div class="col-4 offset-1">
-            <form>
-              <h5>Casdastre seu email</h5>
-              <p>E receba mensalmente nossas melhores ofertas</p>
-              <div class="d-flex w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">Email </label>
-                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                <button class="btn btn-primary" type="button">Inscrever</button>
-              </div>
-            </form>
-          </div>
-        </div>
     
         <div class="d-flex justify-content-between py-4 my-4 border-top">
           <p>© 2022 Atmos Company, Inc. Todos os Diretos reservados.</p>
